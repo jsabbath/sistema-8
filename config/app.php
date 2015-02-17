@@ -136,16 +136,20 @@ return [
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 
+        /*
+         * NetForce Framework providers...
+         */
+        'NetForce\Framework\ServiceProvider',
+        'NetForce\Framework\ConsoleServiceProvider',
+
 		/*
 		 * Application Service Providers...
 		 */
-		'Studio\Providers\AppServiceProvider',
-		'Studio\Providers\BusServiceProvider',
-		'Studio\Providers\ConfigServiceProvider',
-		'Studio\Providers\EventServiceProvider',
-		'Studio\Providers\RouteServiceProvider',
-        'NetForce\Framework\ServiceProvider',
-        'NetForce\Framework\ConsoleServiceProvider',
+		'App\Providers\AppServiceProvider',
+		'App\Providers\BusServiceProvider',
+		'App\Providers\ConfigServiceProvider',
+		'App\Providers\EventServiceProvider',
+		'App\Providers\RouteServiceProvider',
 
 	],
 
