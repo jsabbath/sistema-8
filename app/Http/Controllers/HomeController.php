@@ -1,18 +1,7 @@
 <?php namespace App\Http\Controllers;
 
-class HomeController extends Controller {
-
-	/*
-	|--------------------------------------------------------------------------
-	| Home Controller
-	|--------------------------------------------------------------------------
-	|
-	| This controller renders your application's "dashboard" for users that
-	| are authenticated. Of course, you are free to change or remove the
-	| controller as you wish. It is just here to get your app started!
-	|
-	*/
-
+class HomeController extends Controller
+{
 	/**
 	 * Create a new controller instance.
 	 *
@@ -20,17 +9,37 @@ class HomeController extends Controller {
 	 */
 	public function __construct()
 	{
-		$this->middleware('auth');
+        if (\Request::segment(1) != 'install')
+            $this->middleware('netforce.install');
 	}
 
 	/**
-	 * Show the application dashboard to the user.
+	 * Visao home
 	 *
-	 * @return Response
+	 * @return \Response
 	 */
 	public function index()
 	{
-		return view('home');
+		return \View::make('home');
 	}
 
+    /**
+     * Visao home da instalacao
+     *
+     * @return \Response
+     */
+    public function install()
+    {
+        return \View::make('install.home');
+    }
+
+    /**
+     * Visao banco da instalacao
+     *
+     * @return \Response
+     */
+    public function installBanco()
+    {
+        return \View::make('install.banco');
+    }
 }
