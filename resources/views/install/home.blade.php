@@ -3,8 +3,8 @@
 <?php $sideleft = false; ?>
 
 @section('content')
-    <h3>NetForce Framework</h3>
     <h4>Bem vindo ao NetForce Framework baseado em Laravel</h4>
+
     <p>
         Antes de continuar, vamos precisar de alguns minutinhos para configurar o seu ambiente.<br>
         Para começar, vamos precisar que você nos informe os seguintes parâmetros:
@@ -21,6 +21,6 @@
     </p>
     <br>
     <br>
-    <a href="[[ URL::to('/install/banco') ]]" class="btn btn-primary">Vamos lá!</a>
+    <button ng-click="go('install/banco');" class="btn btn-primary">Vamos lá!</button>
 
 @endsection

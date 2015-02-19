@@ -28,18 +28,9 @@ class HomeController extends Controller
      *
      * @return \Response
      */
-    public function install()
+    public function install($step = 'index')
     {
-        return \View::make('install.home');
-    }
-
-    /**
-     * Visao banco da instalacao
-     *
-     * @return \Response
-     */
-    public function installBanco()
-    {
-        return \View::make('install.banco');
+        $view_id = sprintf('install.%s', $step);
+        return \View::make($view_id);
     }
 }

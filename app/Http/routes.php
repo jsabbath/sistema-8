@@ -7,8 +7,7 @@ Route::get('/',        'HomeController@index');
  */
 Route::group(["prefix" => "install"], function ()
 {
-    Route::get("/",               'HomeController@install');
-    Route::get("/banco",          'HomeController@installBanco');
+    Route::get("/{step?}",        'HomeController@install');
 });
 
 /**
