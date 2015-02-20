@@ -1,4 +1,4 @@
-## NetForce
+## NetForce Framework
 stop talking blah blah blah, let´s code!!!
 
 NetForce é um framework de aplicações web baseado em Laravel, onde a sintaxe do código é muito elegante.
