@@ -5,7 +5,8 @@ NetForce é um framework de aplicações web baseado em Laravel, onde a sintaxe 
 Acreditamos que o desenvolvimento deve ser agradável, fácil e muito empolgante. Somos desenvolvedores e gostamos muito
 do que fazemos.
 
-Criamos o NetForce Framework, para facilitar o desenvolvimento de aplicações, multi inquilino e multi aplicativos.
+Criamos o NetForce Framework, para facilitar o desenvolvimento de aplicações, multi inquilino e multi aplicativos e permitindo que
+os desenvolvedores possam fazer aplicações muito poderosas, mas de uma forma fácil, gráfica e rápida.
 
 Instalação
 ----------
