@@ -1,6 +1,8 @@
 ## NetForce Framework
 stop talking blah blah blah, let´s code!!!
 
+[![Latest Stable Version](https://poser.pugx.org/netforcews/sistema/v/stable.svg)](https://packagist.org/packages/netforcews/sistema) [![Total Downloads](https://poser.pugx.org/netforcews/sistema/downloads.svg)](https://packagist.org/packages/netforcews/sistema) [![Latest Unstable Version](https://poser.pugx.org/netforcews/sistema/v/unstable.svg)](https://packagist.org/packages/netforcews/sistema) [![License](https://poser.pugx.org/netforcews/sistema/license.svg)](https://packagist.org/packages/netforcews/sistema)
+
 NetForce é um framework de aplicações web baseado em Laravel, onde a sintaxe do código é muito elegante.
 Acreditamos que o desenvolvimento deve ser agradável, fácil e muito empolgante. Somos desenvolvedores e gostamos muito
 do que fazemos.
