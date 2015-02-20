@@ -16,4 +16,4 @@ Vá até nossa página de instruções de ajuda e siga o passo-a-passo. É muito
 [Instalação passo-a-passo](https://github.com/netforcews/sistema/wiki/Instala%C3%A7%C3%A3o).
 
 ### Contribuição
- - [![NetForce Sistemas](https://www.netforce.com.br)]
+ - [NetForce Sistemas](http://www.netforce.com.br)
